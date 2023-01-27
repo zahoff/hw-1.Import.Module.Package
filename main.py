@@ -8,13 +8,13 @@ print("Local Date: ", TimeCreation + " " + DateCreation, "\n")
 
 print("before import salary", "\n")
 
-import salary
+from application import salary
 
 print("Module salary was imported", "\n")
 
 print("before import people", "\n")
 
-import people
+from application.db import people
 
 print("Module people was imported", "\n")
 
